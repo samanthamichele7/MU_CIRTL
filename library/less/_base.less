@@ -24,6 +24,7 @@ and will be used across all viewports.
 11. COMMENT FORM STYLES
 12. SIDEBARS & ASIDES
 13. FOOTER STYLES
+14. HOME PAGE STYLES
 
 ******************************************************************/
 
@@ -872,6 +873,7 @@ and more scalable.
 
 .footer {
 	clear: both;
+	background-color: @dark-purple;
 	#inner-footer {
 	}
 	nav {
@@ -887,15 +889,6 @@ and more scalable.
 	}
 }
 
-	/*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
 	.footer-links {
 
 		ul {
@@ -907,7 +900,15 @@ and more scalable.
 	} /* end .footer-links */
 
 
-	.copyright {}
+	.copyright {
+		color: white;
+		text-align: center;
+		padding: 10px 0px;
+		font-size: .9em;
+		a {
+			text-decoration: none;
+		}
+	}
 
 /******************************************************************
 14. HOME PAGE STYLES

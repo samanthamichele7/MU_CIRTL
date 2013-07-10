@@ -10,7 +10,7 @@ Template Name: Home Page Template
 
 	<div id="inner-content" class="wrap clearfix">
 
-			<div id="main" class="twelvecol first clearfix" role="main">
+			<div id="main" class="twelvecol first clearfix text" role="main">
 
 					<div class="eightcol first">
 						<img src="<?php echo the_field('banner_image'); ?>" alt="" style="width: auto">
